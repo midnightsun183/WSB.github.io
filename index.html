@@ -176,8 +176,20 @@ body {
 	
 </style>
 
+<!-- Stock Ticker -->	
+<script>
+	function GetValue()
+	{
+	    var myarray= new Array("a","b","c");
+	    var random = myarray[Math.floor(Math.random() * myarray.length)];
+ 	   //alert(random);
+ 	   document.getElementById("message").innerHTML=random;
+	}
+</script>
+<!-- end Stock Picker -->
 		
 </head>
+		
 <body>
 <!--Header-->
 	
@@ -218,18 +230,7 @@ body {
 --> works!
 	    </p>	
 		<script src="js/min/insult-min.js"></script>
-<!-- Output: Stock Ticker	-->	
 
-		function GetValue()
-	{
-	    var myarray= new Array("a","b","c");
-	    var random = myarray[Math.floor(Math.random() * myarray.length)];
- 	   //alert(random);
- 	   document.getElementById("message").innerHTML=random;
-	}
-	
-
- <!-- end -->
 		
 	</button>
 </div>
