@@ -204,7 +204,7 @@ body {
     <div class="card">		
 	
 <!--JS DYNAMIC "FUCKER!" BUTTON -->
-	<button-lg class="damn button" id="btnSearch" value="Search" onclick="GetValue();" />
+	<button-lg class="damn button" id="btnSearch" onclick="GetValue();" />
 		   <!--onClick="window.location.reload();"> -->
 		<center>
 		<h1 class="bitch ass">Insult my intelect,</h1>
@@ -215,15 +215,16 @@ body {
 		</center>	
 		<script src="js/min/insult-min.js"></script>
 <!-- Output: Stock Ticker -->		
-	function GetValue()
+	<button>
+		function GetValue()
 	{
 	    var myarray= new Array("a","b","c");
 	    var random = myarray[Math.floor(Math.random() * myarray.length)];
  	   //alert(random);
  	   document.getElementById("message").innerHTML=random;
 	}
- 
 	<p id="message" ></p>
+	    </button>
 <!-- End Stock Ticker -->		
 	</button>
 </div>
@@ -254,6 +255,9 @@ src="https://www.reddit.com/r/wallstreetbets/comments/92blq7/daily_discussion_th
 </iframe>
 <br>
 	    <br>
+	    
+	    	    <!-- end: This method of embed ifram works, just not with github		-->
+	    
 	          <p>Sunt or incididunt ut quis nostrud exercitation ullamco.</p>
 	    
     </div>
