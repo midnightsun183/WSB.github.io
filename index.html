@@ -222,8 +222,16 @@ body {
     <div class="card">		
 	
 <!--JS DYNAMIC "FUCKER!" BUTTON -->
-	<button-lg class="damn button"
-		   ondblclick="window.alert('https://www.google.com')";
+	<button-lg class="damn button" id="Fucking_button" ondblclick = function() {myFunction()};
+
+		function myFunction() {
+		   
+   		 document.getElementById("Fucking_button").innerHTML = "I was double-clicked!";
+				}
+		</script>
+   
+		   
+		   <!-- ondblclick="window.alert('https://www.google.com')";
 		   onClick="window.location.reload()"; -->
 		
 		
