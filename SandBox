@@ -52,11 +52,4 @@ function randomString() {
     
 	
   
-      <script type="text/javascript">
-
-    function onClick() {
-
-    };
-    </script>
-    <button type="button" onClick="onClick()">Click me</button>
-    <p>Clicks: <a id="clicks">0</a></p>
+    
