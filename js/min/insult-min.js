@@ -1,5 +1,5 @@
 !function(a){function s(a,s,n){var t=a[Math.floor(Math.random()*a.length)],e=s[Math.floor(Math.random()*s.length)],l=n[Math.floor(Math.random()*n.length)];return[t,e,l]}function n(){var n=a(".fucking.description .sentence");e=s(o,r,p),l=e[2],a(".insult h1.ass").html(e[0]+" "+e[1]),n.html(e[2]),n.find("span.ass").html(e[0]+" "+e[1]),n.find("span.aan").html(t(e[0]))}function t(a){return"a"===a.toLowerCase().charAt(0)?"an":"a"}var e="",l="",o=["MMM",
-"AOS",
+"ASS",
 "ABT",
 "ABBV",
 "ACN",
