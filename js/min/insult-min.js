@@ -576,7 +576,7 @@ function n()
        // "The only people who would vote for that guy are total <span class='ass'></span>s!",
        // "What are you, some kind of <span class='ass'></span>?",
        // "Dude's a real <span class='ass'></span>, you know what I mean?",
-        "He's got an ego like <span class='aan'></span> is <span class='ass'></span>!",
+        "He's got an ego like <span class='aan'></span> is a total <span class='ass'></span>!",
        // "She was being a real <span class='ass'></span> at the store today!",
        // "That <span class='ass'></span> developer's code refuses to compile!",
        // "Her kids are total <span class='ass'></span>s!",
@@ -587,9 +587,9 @@ function n()
        //  "I'd rather get <span class='aan'></span> <span class='ass'></span> to the eye than sit through this lecture.",
        //  "Wow, that <span class='ass'></span> just went off the deep end.",
        // "I may be a jerk, but at least I'm not like that <span class='ass'></span> over there.",
-        "I need that like I need <span class='aan'></span> <span class='ass'></span> on my elbow.",
+        "I need that like I need <span class='aan'></span> is a total <span class='ass'></span> on my elbow.",
        // "What kind of <span class='ass'></span> slows down to merge on the highway?",
-        "You've got a face like <span class='aan'></span> <span class='ass'></span>.",
+        "You've got a face like <span class='aan'></span> is a total <span class='ass'></span>.",
        // "Nothing personal, but you're a real <span class='ass'></span>.",
        // "What a bunch of <span class='ass'></span>s.","That <span class='ass'></span> is legally dead in 27 states - plus Guam."
     ];
