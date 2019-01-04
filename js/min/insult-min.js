@@ -1,5 +1,29 @@
-!function(a){function s(a,s,n){var t=a[Math.floor(Math.random()*a.length)],e=s[Math.floor(Math.random()*s.length)],l=n[Math.floor(Math.random()*n.length)];
-return[t,e,l]}function n(){var n=a(".fucking.description .sentence");e=s(o,r,p),l=e[2],a(".insult h1.ass").html(e[0]+" "+e[1]),n.html(e[2]),n.find("span.ass").html(e[0]+" "+e[1]),n.find("span.aan").html(t(e[0]))}function t(a){return"a"===a.toLowerCase().charAt(0)?"an":"a"}var e="",l="",o=[
+!function(a)
+{
+  function s(a,s,n)  
+  {
+  var t=a[Math.floor(Math.random()*a.length)],
+  e=s[Math.floor(Math.random()*s.length)],
+  l=n[Math.floor(Math.random()*n.length)];
+  return[t,e,l]
+  }
+function n()
+  {
+  var n=a(".fucking.description .sentence");
+    e=s(o,r,p),l=e[2],
+    a(".insult h1.ass").html(e[0]+" "+e[1]),
+    n.html(e[2]),
+    n.find("span.ass").html(e[0]+" "+e[1]),
+    n.find("span.aan").html(t(e[0]))
+    
+  }
+    function t(a)
+      {
+        return"a"===a.toLowerCase().charAt(0)?"an":"a"
+        
+      }
+    var e="",l="",
+    o=[
 "$MMM",
 "$AOS",
 "$ABT",
@@ -552,7 +576,7 @@ return[t,e,l]}function n(){var n=a(".fucking.description .sentence");e=s(o,r,p),
        // "The only people who would vote for that guy are total <span class='ass'></span>s!",
        // "What are you, some kind of <span class='ass'></span>?",
        // "Dude's a real <span class='ass'></span>, you know what I mean?",
-        "He's got an ego like <span class='aan'></span> <span class='ass'></span>!",
+        "He's got an ego like <span class='aan'></span> is <span class='ass'></span>!",
        // "She was being a real <span class='ass'></span> at the store today!",
        // "That <span class='ass'></span> developer's code refuses to compile!",
        // "Her kids are total <span class='ass'></span>s!",
