@@ -530,6 +530,45 @@ function n()
 "$ZION",
 "$ZTS"
 ],
+ r=[
+      "Bagel",
+      "Biscuit",
+      "Blister",
+      "Burger",
+      "Bubble",
+      "Bucket",
+      "Camel",
+      "Canoe",
+      "Cocktail",
+      "Cracker",
+      "Cranker",
+      "Dragon",
+      "Dumpster",
+      "Farmer",
+      "Fister",
+      "Guzzler",
+      "Hatchet",
+      "Monkey",
+      "Muffin",
+      "Muncher",
+      "Nozzle",
+      "Nugget",
+      "Panda",
+      "Pilot",
+      "Pistol",
+      "Pusher",
+      "Sandwich",
+      "Scratcher",
+      "Scrubber",
+      "Shitter",
+      "Sucker",
+      "Taco",
+      "Twiddler",
+      "Waffle",
+      "Wanker",
+      "Whistle"
+    ],
+  <!--   
     r=[
       "Bagel",
       "Biscuit",
@@ -568,6 +607,8 @@ function n()
       "Wanker",
       "Whistle"
     ],
+   
+   -->
     p=[
        // "That <span class='ass'></span> just cut me off!",
        //"My boss is a major <span class='ass'></span>!",
