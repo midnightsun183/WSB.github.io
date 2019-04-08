@@ -20,11 +20,11 @@ function n()
       
     n.find("span.ass").html(e[0]+" "+e[1]),
       
-    n.find("span.stock").html(" "+e[1]),
-      //e[0] is the stock :}
-      //e[1] is ________ :(
-      //e[2] is the sentence :(
-      //e[3] is undefined :(
+    n.find("span.stock").html(" "+e[3]),
+      //e[0] is the stock 
+      //e[1] is strategy 
+      //e[2] is the sentence 
+      //e[3] is undefined 
     // need to go to the main repository and add the custom CSS tag on the .CSS page.
       
     n.find("span.aan").html(l(e[0])) 
