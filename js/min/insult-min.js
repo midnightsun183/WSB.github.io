@@ -12,7 +12,8 @@ function n()
   {
   var n=a(".fucking.description .sentence");
       e=s(o,r,p,q),
-      l=e[3],
+      l=e[2],
+        //changing l=e[2], ----> l=e[3], doesnt seem to do anything :!
       
     a(".insult h1.ass").html(e[0]+" "+e[1]),
       
