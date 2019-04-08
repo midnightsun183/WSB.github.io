@@ -21,7 +21,7 @@ function n()
       
     n.find("span.ass").html(e[0]+" "+e[1]),
       
-    n.find("span.stock").html(" "+e[3]),
+    n.find("span.stock").html(" "+e[4]),
       //e[0] is the stock 
       //e[1] is strategy 
       //e[2] is the sentence 
