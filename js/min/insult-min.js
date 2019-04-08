@@ -11,7 +11,7 @@
 function n()
   {
   var n=a(".fucking.description .sentence");
-      e=s(o,r,p,q),
+      e=s(o,r,q,p),
       l=e[2],
       
     a(".insult h1.ass").html(e[0]+" "+e[1]),
@@ -561,7 +561,7 @@ function n()
     ],
               
     p=[
-        "That <span class='ass'></span> is really a major <span class='aan'></span> insult<span class='stock'></span>"
+        "That <span class='ass'></span> is really a major <span class='aan'></span> <span class='stock'></span>"
        // "That <span class='ass'></span> just cut me off!",
        //"My boss is a major <span class='ass'></span>!",
        // "Don't tell her I said this, but that dude she's with is a real <span class='ass'></span>!",
