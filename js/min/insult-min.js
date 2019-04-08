@@ -17,8 +17,12 @@ function n()
       
     a(".insult h1.ass").html(e[0]+" "+e[1]),
       
-    n.html(e[2]),
-      
+    n.html(e[0]),
+      //e[0] is the stock 
+      //e[1] is 
+      //e[2] is 
+      //e[3] is 
+        
     n.find("span.ass").html(e[0]+" "+e[1]),
       
     n.find("span.stock").html(e[0]),
