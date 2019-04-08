@@ -15,7 +15,10 @@ function n()
     a(".insult h1.ass").html(e[0]+" "+e[1]),
     n.html(e[2]),
     n.find("span.ass").html(e[0]+" "+e[1]),
-    n.find("span.stock").html(" "+e[2]),
+    n.find("span.stock").html(" "+e[0]),
+      //e[0] is undefined :(
+      //e[1] is undefined :(
+      //e[2] is the sentence :(
       //e[3] is undefined :(
     n.find("span.aan").html(l(e[0]))
     
