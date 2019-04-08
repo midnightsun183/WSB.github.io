@@ -535,7 +535,8 @@ function n()
     'Bear Butterfly Spread',
     'Bear Call Spread',
     ],
-
+t=[
+],
     p=[
         "That <span class='aan'></span> is a real <span class='ass'></span>!",
        // "That <span class='ass'></span> just cut me off!",
@@ -562,4 +563,4 @@ function n()
        // "Nothing personal, but you're a real <span class='ass'></span>.",
        // "What a bunch of <span class='ass'></span>s.","That <span class='ass'></span> is legally dead in 27 states - plus Guam."
     ];
-a("button.damn").on("click",n),n(),a("a.twitter-share-button").on("click",function(s){var n=a(this).attr("href"),o=n.split("text="),r=l.replace("<span class='ass'></span>",e[0]+" "+e[1]);r=r.replace("<span class='aan'></span>",t(e[0]));var p=o[0]+"text="+e[0]+" "+e[1]+' (noun) "'+r+'" Get yours at';a(this).attr("href",encodeURI(p))})}(jQuery);
+a("button.damn").on("click",n),n(),a("a.twitter-share-button").on("click",function(s){var n=a(this).attr("href"),o=n.split("text="),r=l.replace("<span class='ass'></span>".t=l.replace("<span class='stock'></span>",e[0]+" "+e[1]);r=r.replace("<span class='aan'></span>",t(e[0]));var p=o[0]+"text="+e[0]+" "+e[1]+' (noun) "'+r+'" Get yours at';a(this).attr("href",encodeURI(p))})}(jQuery);
