@@ -548,10 +548,12 @@ function n()
 "$ZION",
 "$ZTS"
 ],
-        
-    q=[
-  "works",
+   
+ q=[
+      "works",
       "probably"
+    ],
+        
  r=[
     "call",
     "naked put",
@@ -583,8 +585,7 @@ function n()
         //"You've got a face like <span class='aan'></span> is a total <span class='ass'></span>.",
        // "Nothing personal, but you're a real <span class='ass'></span>.",
        // "What a bunch of <span class='ass'></span>s.","That <span class='ass'></span> is legally dead in 27 states - plus Guam."
-      
-    ]
+ 
     ];
   
   
