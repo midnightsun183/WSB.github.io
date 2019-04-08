@@ -10,7 +10,7 @@
   }
 function n()
   {
-  var n=a(".fucking.description.sentence");
+  var n=a(".fucking.description .sentence");
       e=s(o,r,p,q),
       l=e[2],
       
@@ -32,9 +32,9 @@ function n()
       //(l(e[0])) is ________
       //(l(e[0])) is ________
       //(l(e[0])) is ________
-    
-
+  
   }
+  
     function t(a)
       {
         return"a"===a.toLowerCase().charAt(0)?"an":"a"
