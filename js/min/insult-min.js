@@ -2,7 +2,8 @@
 {
   function s(a,s,n)  
   {
-  var t=a[Math.floor(Math.random()*a.length)],
+  var 
+  t=a[Math.floor(Math.random()*a.length)],
   e=s[Math.floor(Math.random()*s.length)],
   l=n[Math.floor(Math.random()*n.length)];
   return[t,e,l]
@@ -15,7 +16,7 @@ function n()
     n.html(e[2]),
     n.find("span.ass").html(e[0]+" "+e[1]),
     n.find("span.stock").html(" "+t(e[0])),
-    n.find("span.aan").html(t(e[0]))
+    n.find("span.aan").html(l(e[0]))
     
   }
     function t(a)
