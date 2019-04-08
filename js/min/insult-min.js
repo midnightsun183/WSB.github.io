@@ -562,6 +562,10 @@ q= ["works,"],
        // "Nothing personal, but you're a real <span class='ass'></span>.",
        // "What a bunch of <span class='ass'></span>s.","That <span class='ass'></span> is legally dead in 27 states - plus Guam."
     ];
+  
+  
+//<----Social Media Sharing---->
+  
 a("button.damn").on("click",n),
   n(),
   a("a.twitter-share-button").on("click",function(s){var n=a(this).attr("href"),
