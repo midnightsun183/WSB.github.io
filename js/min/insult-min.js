@@ -12,16 +12,27 @@ function n()
   {
   var n=a(".fucking.description .sentence");
     e=s(o,r,p,q),l=e[2],
+      
     a(".insult h1.ass").html(e[0]+" "+e[1]),
+      
     n.html(e[2]),
+      
     n.find("span.ass").html(e[0]+" "+e[1]),
+      
     n.find("span.stock").html(" "+e[0]),
-      //e[0] is undefined :(
+      //e[0] is the stock :}
       //e[1] is undefined :(
       //e[2] is the sentence :(
       //e[3] is undefined :(
-    n.find("span.aan").html(l(e[0]))
+    // need to go to the main repository and add the custom CSS tag on the .CSS page.
+      
+    n.find("span.aan").html(l(e[0])) 
+      //(l(e[0])) is ________
+      //(l(e[0])) is ________
+      //(l(e[0])) is ________
+      //(l(e[0])) is ________
     
+
   }
     function t(a)
       {
