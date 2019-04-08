@@ -537,7 +537,7 @@ function n()
     ],
 q= ["works,"],
     p=[
-        "That <span class='ass'></span> is really a major <span class='aan'></span> insult"
+        "That <span class='ass'></span> is really a major <span class='aan'></span> insult<span class='stock'></span>"
        // "That <span class='ass'></span> just cut me off!",
        //"My boss is a major <span class='ass'></span>!",
        // "Don't tell her I said this, but that dude she's with is a real <span class='ass'></span>!",
@@ -570,6 +570,7 @@ a("button.damn").on("click",n),
                 e[0]+" "+e[1]);
     r=r.replace("<span class='aan'></span>",
                 t(e[0]));
-    q=q.replace("<span class='aan'></span>",
+    q=q.replace("<span class='stock'></span>",
+              e[0]+" "+e[1]);
 var p=o[0]+"text="+e[0]+" "+e[1]+' (noun) "'+r+'" Get yours at';
    a(this).attr("href",encodeURI(p))})}(jQuery);
