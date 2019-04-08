@@ -584,7 +584,7 @@ function n()
     ],
         
     q= [
-  "works,"
+  "works",
     ];
   
   
