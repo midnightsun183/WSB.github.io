@@ -562,7 +562,8 @@ function n()
     ],
               
     p=[
-        "That <span class='ass'></span> is really a major <span class='aan'></span> <span class='stock'></span>"
+      "this is <span class='ass'></span>....this is </span> <span class='stock'></span>....this is <span class='aan'></span>"
+       //"That <span class='ass'></span> is really a major <span class='aan'></span> <span class='stock'></span>"
        // "That <span class='ass'></span> just cut me off!",
        //"My boss is a major <span class='ass'></span>!",
        // "Don't tell her I said this, but that dude she's with is a real <span class='ass'></span>!",
