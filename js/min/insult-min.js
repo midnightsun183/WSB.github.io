@@ -10,7 +10,7 @@
   }
 function n()
   {
-  var n=a(".fucking.description .sentence");
+  var n=a(".fucking.description.sentence");
       e=s(o,r,p,q),
       l=e[2],
       
