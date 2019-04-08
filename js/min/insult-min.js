@@ -535,9 +535,7 @@ function n()
     "naked put",
     "long straddle",
     ],
-q= [
-      "works",
-      ]
+q= ["works,"],
     p=[
         "That <span class='ass'></span> is really a major <span class='aan'></span> insult"
        // "That <span class='ass'></span> just cut me off!",
