@@ -20,7 +20,7 @@ function n()
       
     n.find("span.ass").html(e[0]+" "+e[1]),
       
-    n.find("span.stock").html(" "+e[3]),
+    n.find("span.stock").html(" "+e[1]),
       //e[0] is the stock 
       //e[1] is strategy 
       //e[2] is the sentence 
@@ -551,7 +551,7 @@ function n()
    
  q=[
       "works",
-      "probably"
+      "probably",
     ],
         
  r=[
@@ -582,7 +582,7 @@ function n()
        // "I may be a jerk, but at least I'm not like that <span class='ass'></span> over there.",
        // "I need that like I need </span> is a total <span class='ass'></span> on my elbow.",
        // "What kind of <span class='ass'></span> slows down to merge on the highway?",
-        //"You've got a face like <span class='aan'></span> is a total <span class='ass'></span>.",
+       // "You've got a face like <span class='aan'></span> is a total <span class='ass'></span>.",
        // "Nothing personal, but you're a real <span class='ass'></span>.",
        // "What a bunch of <span class='ass'></span>s.","That <span class='ass'></span> is legally dead in 27 states - plus Guam."
  
