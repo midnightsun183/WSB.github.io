@@ -14,7 +14,7 @@ function n()
     a(".insult h1.ass").html(e[0]+" "+e[1]),
     n.html(e[2]),
     n.find("span.ass").html(e[0]+" "+e[1]),
-    n.find("span.stock").html(" "+e[2]),
+    n.find("span.stock").html(" "+t(e[0])),
     n.find("span.aan").html(t(e[0]))
     
   }
@@ -531,12 +531,17 @@ function n()
 "$ZION",
 "$ZTS"
 ],
+        
  r=[
     "call",
     "naked put",
     "long straddle",
     ],
-q= ["works,"],
+        
+q= [
+  "works,"
+    ],
+        
     p=[
         "That <span class='ass'></span> is really a major <span class='aan'></span> insult<span class='stock'></span>"
        // "That <span class='ass'></span> just cut me off!",
