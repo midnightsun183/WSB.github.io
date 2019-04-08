@@ -11,8 +11,8 @@
 function n()
   {
   var n=a(".fucking.description .sentence");
-      e=s(o,r,q,p),
-      l=e[2],
+      e=s(o,r,p,q),
+      l=e[3],
       
     a(".insult h1.ass").html(e[0]+" "+e[1]),
       
@@ -20,7 +20,7 @@ function n()
       
     n.find("span.ass").html(e[0]+" "+e[1]),
       
-    n.find("span.stock").html(" "+e[1]),
+    n.find("span.stock").html(" "+e[3]),
       //e[0] is the stock 
       //e[1] is strategy 
       //e[2] is the sentence 
