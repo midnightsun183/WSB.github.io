@@ -606,7 +606,8 @@ a("button.damn").on("click",n),
                 e[0]+" "+e[1]);
     r=r.replace("<span class='aan'></span>",
                 t(e[0]));
-   // q=q.replace("<span class='stock'></span>",
-     //         e[0]+" "+e[1]);
+    q=q.replace("<span class='stock'></span>",
+              e[0]);
+    // q must be updated to match e[0] as above
 var p=o[0]+"text="+e[0]+" "+e[1]+' (noun) "'+r+'" Get yours at';
    a(this).attr("href",encodeURI(p))})}(jQuery);
