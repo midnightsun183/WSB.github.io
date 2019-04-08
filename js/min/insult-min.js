@@ -562,4 +562,55 @@ function n()
        // "Nothing personal, but you're a real <span class='ass'></span>.",
        // "What a bunch of <span class='ass'></span>s.","That <span class='ass'></span> is legally dead in 27 states - plus Guam."
     ];
-a("button.damn").on("click",n),n(),a("a.twitter-share-button").on("click",function(s){var n=a(this).attr("href"),o=n.split("text="),r=l.replace("<span class='ass'></span>".,e[0]+" "+e[1]);r=r.replace("<span class='aan'></span>",t(e[0]));var p=o[0]+"text="+e[0]+" "+e[1]+' (noun) "'+r+'" Get yours at';a(this).attr("href",encodeURI(p))})}(jQuery);
+];
+
+	function randomUpSomeShit( cussing, fuckAssNoun, fuckingDescriptions ) {
+		// Randomizing shit bitches and returning the shit
+		var randCussing = cussing[ Math.floor( Math.random()*cussing.length ) ];
+		var randFuckAssNoun = fuckAssNoun[ Math.floor(Math.random()*fuckAssNoun.length ) ];
+		var randFuckingDescription = fuckingDescriptions[ Math.floor( Math.random()*fuckingDescriptions.length ) ];
+
+		return [ randCussing, randFuckAssNoun, randFuckingDescription ];
+	}
+
+	function randThatShitUp() {
+		var $fuckingTarget = $( '.fucking.description .sentence' );
+		randFuckingArray = randomUpSomeShit( cussing, fuckAssNoun, fuckingDescriptions );
+		fuckingDescription = randFuckingArray[2];
+
+		// Swapping out the title bitches
+		$( '.insult h1.ass' ).html( randFuckingArray[0] + ' ' + randFuckingArray[1] );
+
+		// Swapping out the descriptions bitches
+		$fuckingTarget.html( randFuckingArray[2] );
+		$fuckingTarget.find( 'span.ass' ).html( randFuckingArray[0] + ' ' + randFuckingArray[1] );
+
+		// Fucking a or an
+		$fuckingTarget.find( 'span.aan' ).html( fuckingAorAn( randFuckingArray[0] ) );
+	}
+
+	function fuckingAorAn( shitWord ) {
+		// Fucking simple right now since there's only one 'A' word.
+		return 'a' === shitWord.toLowerCase().charAt(0) ? 'an' : 'a';
+	}
+
+	// On click bitches
+	$( 'button.damn' ).on( 'click', randThatShitUp );
+
+	// On load bitches
+	randThatShitUp();
+
+	$( 'a.twitter-share-button' ).on( 'click', function( e ) {
+
+		var fuckingUrl = $( this ).attr( 'href' );
+		var fuckingSpit = fuckingUrl.split( 'text=' );
+		var fuckingDescriptionAgain = fuckingDescription.replace( '<span class=\'ass\'></span>', randFuckingArray[0] + ' ' + randFuckingArray[1] );
+		fuckingDescriptionAgain = fuckingDescriptionAgain.replace( '<span class=\'aan\'></span>', fuckingAorAn( randFuckingArray[0] ) );
+		var newFuckingUrl = fuckingSpit[0] + 'text=' + randFuckingArray[0] + ' ' + randFuckingArray[1] + ' (noun) "' + fuckingDescriptionAgain + '" Get yours at' ;
+
+		$( this ).attr( 'href', encodeURI( newFuckingUrl ) );
+
+	} );
+
+
+} )( jQuery );
