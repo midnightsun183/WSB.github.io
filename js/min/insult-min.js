@@ -549,6 +549,9 @@ function n()
 "$ZTS"
 ],
         
+    q=[
+  "works",
+      "probably"
  r=[
     "call",
     "naked put",
@@ -581,11 +584,7 @@ function n()
        // "Nothing personal, but you're a real <span class='ass'></span>.",
        // "What a bunch of <span class='ass'></span>s.","That <span class='ass'></span> is legally dead in 27 states - plus Guam."
       
-    ],
-        
-    q=[
-  "works",
-      "probably"
+    ]
     ];
   
   
