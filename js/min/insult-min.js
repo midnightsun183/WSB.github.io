@@ -10,7 +10,7 @@
 function n()
   {
   var n=a(".fucking.description .sentence");
-    e=s(o,r,p),l=e[2],
+    e=s(o,r,p,q),l=e[2],
     a(".insult h1.ass").html(e[0]+" "+e[1]),
     n.html(e[2]),
     n.find("span.ass").html(e[0]+" "+e[1]),
@@ -535,7 +535,9 @@ function n()
     "naked put",
     "long straddle",
     ],
-
+q= [
+      "works",
+      ]
     p=[
         "That <span class='ass'></span> is really a major <span class='aan'></span> insult"
        // "That <span class='ass'></span> just cut me off!",
@@ -562,9 +564,14 @@ function n()
        // "Nothing personal, but you're a real <span class='ass'></span>.",
        // "What a bunch of <span class='ass'></span>s.","That <span class='ass'></span> is legally dead in 27 states - plus Guam."
     ];
-a("button.damn").on("click",n),n(),a("a.twitter-share-button").on("click",function(s){var n=a(this).attr("href"),
+a("button.damn").on("click",n),
+  n(),
+  a("a.twitter-share-button").on("click",function(s){var n=a(this).attr("href"),
     o=n.split("text="),
-    r=l.replace("<span class='ass'></span>",e[0]+" "+e[1]);
-    r=r.replace("<span class='aan'></span>",t(e[0]));
+    r=l.replace("<span class='ass'></span>",
+                e[0]+" "+e[1]);
+    r=r.replace("<span class='aan'></span>",
+                t(e[0]));
+    q=q.replace("<span class='aan'></span>",
 var p=o[0]+"text="+e[0]+" "+e[1]+' (noun) "'+r+'" Get yours at';
    a(this).attr("href",encodeURI(p))})}(jQuery);
