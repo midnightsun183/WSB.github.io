@@ -561,10 +561,119 @@ function n()
     ],
         
  r=[
-    "call",
-    "naked put",
-    "long straddle",
-    "calendar spread",
+"Albatross Spread",
+
+"Bear Butterfly Spread",
+
+"Bear Call Spread",
+
+"Bear Put Ladder Spread",
+
+"Bear Put Spread",
+
+"Bear Ratio Spread",
+
+"Box Spread",
+
+"Bull Butterfly Spread",
+
+"Bull Call Ladder Spread",
+
+"Bull Call Spread",
+
+"Bull Condor Spread",
+
+"Bull Put Spread",
+
+"Bull Ratio Spread",
+
+"Butterfly Spread",
+
+"Long Call",
+
+"Long Put",
+
+"Calendar Call Spread",
+
+"Calendar Put Spread",
+
+"Calendar Straddle",
+
+"Calendar Strangle",
+
+"Call Ratio Backspread",
+
+"Call Ratio Spread",
+
+"Condor Spread",
+
+"Covered Call Collar",
+
+"Covered Call",
+
+"Covered Put",
+
+"Iron Albatross Spread",
+
+"Iron Butterfly Spread",
+
+"Iron Condor Spread",
+
+"Long Call",
+
+"Long Gut",
+
+"Long Put",
+
+"Long Straddle",
+
+"Long Strangle",
+
+"Naked Call",
+
+"Naked Put",
+
+"Put Ratio Backspread",
+
+"Put Ratio Spread",
+
+"Reverse Iron Albatross Spread",
+
+"Reverse Iron Butterfly Spread",
+
+"Reverse Iron Condor Spread",
+
+"Short Albatross Spread",
+
+"Short Bear Ratio Spread",
+
+"Short Bull Ratio Spread",
+
+"Short Butterfly Spread",
+
+"Short Calendar Call Spread",
+
+"Short Calendar Put Spread",
+
+"Short Call",
+
+"Short Condor Spread",
+
+"Short Gut",
+
+"Short Put",
+
+"Short Straddle",
+
+"Short Strangle",
+
+"Strap Straddle",
+
+"Strap Strangle",
+
+"Strip Straddle",
+
+"Strip Strangle",
     ],
               
     p=[
