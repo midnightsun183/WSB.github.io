@@ -23,18 +23,18 @@
 		
 		
 <!-- To Do 
-	1. Google Analytics
-	2. SEO
-	3. Aspie of the week
-	4. Stock Picker
-		4a. onclick <aref= new page_stockPick		
-		4b. Make Stock picker 3 letters work 
-		4c. on click <aref= newpage_paymefucker
-		4d. on page reload fuck uppayme
-	5. Option picker
-	6. <iframes> Daily Discussion
-	7. Reddit button 
-	8. Fix share button links
+	-[ ] Google Analytics
+	-[ ] SEO
+	-[ ]Aspie of the week 
+	-[x]Stock Picker
+		-[ ]onclick <aref= new page_stockPick		
+		-[ ]Make Stock picker 3 letters work 
+		-[ ]on click <aref= newpage_paymefucker
+		-[ ]on page reload fuck uppayme
+	-[ ]Option picker
+	-[ ]<iframes> Daily Discussion
+	-[ ]Reddit button 
+	-[ ]Fix share button links
 			-->
 	
 <style>
@@ -117,11 +117,17 @@ body {
     width: 100%;
     padding: 20px;
 }
-/* Add a card effect for articles */
+/* Add a card effect for articles <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .card {
     background-color: grey;
     padding: 20px;
     margin-top: 20px;
+    width: 160px;
+    height: 160px;
+    border: 2px solid;
+    /*color: grey;/*
+    resize: both;
+    overflow: scroll;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -148,7 +154,8 @@ body {
         padding: 0;
     }
 }
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of 
+	each other instead of next to each other */
 @media screen and (max-width: 400px) {
     .topnav a {
         float: none;
