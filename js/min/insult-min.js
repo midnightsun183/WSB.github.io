@@ -564,6 +564,7 @@ function n()
     "call",
     "naked put",
     "long straddle",
+    "calendar spread",
     ],
               
     p=[
