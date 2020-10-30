@@ -692,7 +692,9 @@ header, body, .site-wrapper, footer {
 
 .footer {
   padding: 3em 1em 1em 1em;
-  font-size: .8em; }
+  font-size: .8em;
+  position: absolute;
+  bottom: 0; } 
 
 @media only screen and (min-width: 48.5em) {
   h1 {
