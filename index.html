@@ -351,9 +351,28 @@ function randomString() {
     	  <div id="banner">
     		<div id="wrapper" style="width:100%; overflow:hidden;">
      		   <div id="container" style="width:100%; margin-right:auto;">
-                	<A HREF="https://www.bloomberg.com/features/american-mall-game/" target= "blank">
-				<img style="width: 100%;" src="https://static.adweek.com/adweek.com-prod/wp-content/uploads/2018/02/mall-page-01-2018.gif" alt="Bloomberg for tards">
-				</a>
+                	<!--<A HREF="https://www.bloomberg.com/features/american-mall-game/" target= "blank">-->
+				<script type="text/javascript"><!--
+					var imlocation = "images/aspie/";
+					 function ImageArray (n) {
+  					 this.length = n;
+   						for (var i =1; i <= n; i++) {
+  						   this[i] = ' '
+							   }
+						 }
+						image = new ImageArray(7);
+						image[0] = 'sunday.gif';
+						image[1] = 'monday.gif';
+						image[2] = 'tuesday.gif';
+						image[3] = 'wednesday.gif';
+						image[4] = 'thursday.gif';
+						image[5] = 'friday.gif';
+						image[6] = 'saturday.gif';
+						var currentdate = new Date();
+						var imagenumber = currentdate.getDay();
+						document.write('<img src="' + imlocation + image[imagenumber] + '">');
+						//--></script>
+				<!-- </a> -->
         	</div>
 	    </div>
 	</div>
